@@ -2,7 +2,7 @@
 
 Hello, 
 
-I will participate with a demo vault for students either school or university I think it could be used in both cases. 
+I will participate with a demo vault for students either school or university I think it could be used in both cases in [Obsidian October](https://publish.obsidian.md/hub/Obsidian+October+2022)
 
 The objective was to create a vault as simple and accessible as possible, that's why it handles a simple task control and data logging, we plan to make this vault modular and add other functionalities over time. 
 
