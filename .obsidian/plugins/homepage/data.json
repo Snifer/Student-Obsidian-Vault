@@ -5,7 +5,7 @@
   "momentFormat": "YYYY-MM-DD",
   "workspace": "Dashboard",
   "workspaceEnabled": true,
-  "hasRibbonIcon": true,
+  "hasRibbonIcon": false,
   "openMode": "Keep open notes",
   "view": "Reading view",
   "refreshDataview": true

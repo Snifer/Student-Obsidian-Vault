@@ -6,6 +6,8 @@ I will participate with a demo vault for students either school or university I 
 
 The objective was to create a vault as simple and accessible as possible, that's why it handles a simple task control and data logging, we plan to make this vault modular and add other functionalities over time. 
 
+We avoided integrating many plugins or functionality such as Templater, Obsidian Database Folder or GTD Plugin for example, in order not to complicate the main use of the vault. 
+
 Use PARA method for organizate the vault and content management, with posibility. 
 
 Currently I generate spanish content about Obsidian on my [Youtube channel](https://youtube.com/sniferl4bs), previously created a note system based on Zettelkasten and the workflow of Ruben Loan. [Sistema de Notas - Zettelkasten (Obsidian Template)](https://snifer.gumroad.com/l/ylwkc)
@@ -17,6 +19,7 @@ Currently I generate spanish content about Obsidian on my [Youtube channel](http
 - The registration of information is performed from the dashboard in the respective areas.
 - The trash is configured to send to the **.trash** folder to Obsidian to prevent deletions due to errors. 
 - User Wikilinks to reference notes. 
+
 
 >[!NOTE]
 >If you are just starting out and want to learn more about Obsidian you have the https://forum.obsidian.md and https://help.obsidian.md.
@@ -110,7 +113,7 @@ The Birthdays section updates itself, keeping in mind that the next birthday nee
 
 ### Plugins
 
-The current plugins used during the creation this vault. 
+The principal plugins used during the creation this vault. 
 
 ##### Table of content 
 
@@ -167,7 +170,9 @@ This plugin permit configure a Workspace from HomePage.
 
 ##### Calendar
 
-The calendar
+##### Excalidraw
+
+Use for create diagrams or visual notes. 
 
 
 ### TODO. 
@@ -178,3 +183,4 @@ The calendar
 - Implement Presentation with Slide Advanced Template.
 - Implement use of Daily Notes. 
 - Remminder notification. 
+- PDF to markdown convertion with Obsidian to Markdown

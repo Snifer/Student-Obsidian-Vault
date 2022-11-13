@@ -20,6 +20,18 @@
                     "source": true
                   }
                 }
+              },
+              {
+                "id": "298ba9419488abcf",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "README.md",
+                    "mode": "preview",
+                    "source": true
+                  }
+                }
               }
             ]
           }
@@ -68,11 +80,24 @@
                 }
               }
             ]
+          },
+          {
+            "id": "44e0096989c71fa2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "848b54cea8425a82",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 389.5,
-        "collapsed": true
+        "width": 389.5
       },
       "right": {
         "id": "37354e55541d44db",
@@ -112,17 +137,6 @@
                 }
               },
               {
-                "id": "aa5df0c9818c23cf",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
                 "id": "5cdf8515448a655e",
                 "type": "leaf",
                 "state": {
@@ -133,20 +147,37 @@
                 }
               },
               {
-                "id": "848b54cea8425a82",
+                "id": "c52022f5ed75637c",
                 "type": "leaf",
                 "state": {
-                  "type": "calendar",
+                  "type": "advanced-tables-toolbar",
                   "state": {}
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
+          },
+          {
+            "id": "e97f5dccf0561c37",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "97345c6e61480b7d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Resources/Config/TODO.md",
+                    "mode": "source",
+                    "source": true
+                  }
+                }
+              }
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 386
       },
       "active": "0ddb334c607edb2f"
     }
