@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "defaultNote": "Dashboard",
+  "useMoment": false,
+  "momentFormat": "YYYY-MM-DD",
+  "workspace": "Dashboard",
+  "workspaceEnabled": true,
+  "hasRibbonIcon": true,
+  "openMode": "Keep open notes",
+  "view": "Reading view",
+  "refreshDataview": true
+}

@@ -1,0 +1,32 @@
+/*
+    clean-embeds.css snippet
+
+    Removes title, link, padding, margins from embeds,
+    so they really look like the same note.
+
+    To be used with `cssclass: clean-embeds` in YAML frontmatter.
+
+    2021-08-24 Matthias C. Hormann (Moonbase59)
+
+    TODO: Find out how to correct PDF export. L/R margins & vspace too large on embeds.
+*/
+
+
+.clean-embeds{
+    --embed-background:inherit;
+    --embed-border-left:0px solid var(--interactive-accent);
+    --embed-border-right:none;
+    --embed-border-top:none;
+    --embed-border-bottom:none;
+    --embed-padding:0 0 0 0;
+    --embed-font-style:inherit
+}
+.clean-embeds .markdown-rendered .markdown-embed{
+    max-width:100%
+}
+.clean-embeds .markdown-rendered .markdown-embed .markdown-rendered{
+    padding-left:0
+}
+.clean-embeds .markdown-embed-link{
+    visibility:hidden
+}

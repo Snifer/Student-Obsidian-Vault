@@ -1,0 +1,514 @@
+/* Annotation Tag Template for the Theme Shimmering Focus
+---------------------------------------------------------
+https://github.com/chrisgrieser/shimmering-focus
+
+Instruction
+--------------
+1. Replace the background-color with a color of your choice
+2. Replace the icon with an emoji of your choice.
+(The trailing space is needed for proper alignment.)
+3. Replace _every_ instance of "YOURTAG" with the (case-sensitive) tag of
+your choice.
+4. Save the file as CSS snippet in `{your-vault-path}/.obsidian/snippets`
+https://help.obsidian.md/How+to/Add+custom+styles#Use+Themes+and+or+CSS+snippets
+5. go to Obsidian Settings ➞ Appearance, Reload the snippets and enable the
+snippet you just saved.
+
+
+Note that this CSS snippet requires the theme "Shimmering Focus" to work properly.
+
+If you are using the Legacy Editor (CM5), replace every instance of
+".cm-line" with ".CodeMirror-line".
+*/
+
+body:not(.annotation-tags-off) .cm-tag-Pending,
+body:not(.annotation-tags-off) .tag[href="#Pending"] {
+	/* replace this color */
+	background-color: rgb(252 119 119 / 40%);
+}
+
+body:not(.annotation-tags-off) .cm-hashtag-begin.cm-tag-Pending::BEFORE,
+body:not(.annotation-tags-off) .tag[href="#Pending"]::BEFORE {
+	/* replace this icon */
+	content: "📨 ";
+}
+
+body:not(.annotation-tags-off) .tag[href="#Pending"],
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line span.cm-tag-Pending {
+	font-weight: 900;
+	font-style: normal;
+	text-decoration: none;
+
+	color: var(--annotation-tag-font-color);
+
+	padding-right: 8px;
+	padding-left: 8px;
+
+	border-radius: var(--roundish);
+}
+
+body:not(.annotation-tags-off) .longform-leaf .tag[href="#Pending"],
+body:not(.annotation-tags-off) .longform-leaf .cm-s-obsidian .cm-line span.cm-tag-Pending {
+	font-family: var(--longform-font);
+	font-size: var(--longform-font-size);
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-begin.cm-tag-Pending {
+	white-space: nowrap;
+	padding-right: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-end.cm-tag-Pending {
+	font-family: var(--default-font);
+	padding-left: 0;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
+
+
+/* INBOX*/
+
+
+body:not(.annotation-tags-off) .cm-tag-Inbox,
+body:not(.annotation-tags-off) .tag[href="#Inbox"] {
+	/* replace this color */
+	background-color: rgb(102 255 255 / 50%);
+}
+
+body:not(.annotation-tags-off) .cm-hashtag-begin.cm-tag-Inbox::BEFORE,
+body:not(.annotation-tags-off) .tag[href="#Inbox"]::BEFORE {
+	/* replace this icon */
+	content: "📥 ";
+}
+
+body:not(.annotation-tags-off) .tag[href="#Inbox"],
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line span.cm-tag-Inbox {
+	font-weight: 900;
+	font-style: normal;
+	text-decoration: none;
+
+	color: var(--annotation-tag-font-color);
+
+	padding-right: 8px;
+	padding-left: 8px;
+
+	border-radius: var(--roundish);
+}
+
+body:not(.annotation-tags-off) .longform-leaf .tag[href="#Inbox"],
+body:not(.annotation-tags-off) .longform-leaf .cm-s-obsidian .cm-line span.cm-tag-Inbox {
+	font-family: var(--longform-font);
+	font-size: var(--longform-font-size);
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-begin.cm-tag-Inbox {
+	white-space: nowrap;
+	padding-right: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-end.cm-tag-Inbox {
+	font-family: var(--default-font);
+	padding-left: 0;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
+
+/*Completed*/
+
+
+body:not(.annotation-tags-off) .cm-tag-Completed,
+body:not(.annotation-tags-off) .tag[href="#Completed"] {
+	/* replace this color */
+	background-color: rgb(0 235 230 / 50%);
+}
+
+body:not(.annotation-tags-off) .cm-hashtag-begin.cm-tag-Completed::BEFORE,
+body:not(.annotation-tags-off) .tag[href="#Completed"]::BEFORE {
+	/* replace this icon */
+	content: "✅ ";
+}
+
+body:not(.annotation-tags-off) .tag[href="#Completed"],
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line span.cm-tag-Completed {
+	font-weight: 900;
+	font-style: normal;
+	text-decoration: none;
+
+	color: var(--annotation-tag-font-color);
+
+	padding-right: 8px;
+	padding-left: 8px;
+
+	border-radius: var(--roundish);
+}
+
+body:not(.annotation-tags-off) .longform-leaf .tag[href="#Completed"],
+body:not(.annotation-tags-off) .longform-leaf .cm-s-obsidian .cm-line span.cm-tag-Completed {
+	font-family: var(--longform-font);
+	font-size: var(--longform-font-size);
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-begin.cm-tag-Completed {
+	white-space: nowrap;
+	padding-right: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-end.cm-tag-Completed {
+	font-family: var(--default-font);
+	padding-left: 0;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
+
+/*#🦖SniferL4bs/Blog*/
+
+body:not(.annotation-tags-off) .cm-tag-SniferL4bs,
+body:not(.annotation-tags-off) .tag[href="#SniferL4bs"] {
+	/* replace this color */
+	background-color: rgb(0 235 230 / 50%);
+}
+
+body:not(.annotation-tags-off) .cm-hashtag-begin.cm-tag-SniferL4bs::BEFORE,
+body:not(.annotation-tags-off) .tag[href="#SniferL4bs"]::BEFORE {
+	/* replace this icon */
+	content: "🦖 ";
+}
+
+body:not(.annotation-tags-off) .tag[href="#SniferL4bs"],
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line span.cm-tag-SniferL4bs {
+	font-weight: 900;
+	font-style: normal;
+	text-decoration: none;
+
+	color: var(--annotation-tag-font-color);
+
+	padding-right: 8px;
+	padding-left: 8px;
+
+	border-radius: var(--roundish);
+}
+
+body:not(.annotation-tags-off) .longform-leaf .tag[href="#SniferL4bs"],
+body:not(.annotation-tags-off) .longform-leaf .cm-s-obsidian .cm-line span.cm-tag-SniferL4bs {
+	font-family: var(--longform-font);
+	font-size: var(--longform-font-size);
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-begin.cm-tag-SniferL4bs {
+	white-space: nowrap;
+	padding-right: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-end.cm-tag-SniferL4bs {
+	font-family: var(--default-font);
+	padding-left: 0;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
+
+/*PDF*/
+
+
+
+body:not(.annotation-tags-off) .cm-tag-PDF,
+body:not(.annotation-tags-off) .tag[href="#PDF"] {
+	/* replace this color */
+	background-color: rgb(0 235 230 / 50%);
+}
+
+body:not(.annotation-tags-off) .cm-hashtag-begin.cm-tag-PDF::BEFORE,
+body:not(.annotation-tags-off) .tag[href="#PDF"]::BEFORE {
+	/* replace this icon */
+	content: "📄 ";
+}
+
+body:not(.annotation-tags-off) .tag[href="#PDF"],
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line span.cm-tag-PDF {
+	font-weight: 900;
+	font-style: normal;
+	text-decoration: none;
+
+	color: var(--annotation-tag-font-color);
+
+	padding-right: 8px;
+	padding-left: 8px;
+
+	border-radius: var(--roundish);
+}
+
+body:not(.annotation-tags-off) .longform-leaf .tag[href="#PDF"],
+body:not(.annotation-tags-off) .longform-leaf .cm-s-obsidian .cm-line span.cm-tag-PDF {
+	font-family: var(--longform-font);
+	font-size: var(--longform-font-size);
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-begin.cm-tag-PDF {
+	white-space: nowrap;
+	padding-right: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-end.cm-tag-PDF {
+	font-family: var(--default-font);
+	padding-left: 0;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
+
+/*Books*/
+
+body:not(.annotation-tags-off) .cm-tag-Books,
+body:not(.annotation-tags-off) .tag[href="#Books"] {
+	/* replace this color */
+	background-color: rgb(0 235 230 / 50%);
+}
+
+body:not(.annotation-tags-off) .cm-hashtag-begin.cm-tag-Books::BEFORE,
+body:not(.annotation-tags-off) .tag[href="#Books"]::BEFORE {
+	/* replace this icon */
+	content: "📚 ";
+}
+
+body:not(.annotation-tags-off) .tag[href="#Books"],
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line span.cm-tag-Books {
+	font-weight: 900;
+	font-style: normal;
+	text-decoration: none;
+
+	color: var(--annotation-tag-font-color);
+
+	padding-right: 8px;
+	padding-left: 8px;
+
+	border-radius: var(--roundish);
+}
+
+body:not(.annotation-tags-off) .longform-leaf .tag[href="#Books"],
+body:not(.annotation-tags-off) .longform-leaf .cm-s-obsidian .cm-line span.cm-tag-Books {
+	font-family: var(--longform-font);
+	font-size: var(--longform-font-size);
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-begin.cm-tag-Books {
+	white-space: nowrap;
+	padding-right: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-end.cm-tag-Books {
+	font-family: var(--default-font);
+	padding-left: 0;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
+
+/*HomeWork*/
+
+body:not(.annotation-tags-off) .cm-tag-HomeWork,
+body:not(.annotation-tags-off) .tag[href="#HomeWork"] {
+	/* replace this color */
+	background-color: rgb(153 51 255 / 50%);
+}
+
+body:not(.annotation-tags-off) .cm-hashtag-begin.cm-tag-HomeWork::BEFORE,
+body:not(.annotation-tags-off) .tag[href="#HomeWork"]::BEFORE {
+	/* replace this icon */
+	content: "📝 ";
+}
+
+body:not(.annotation-tags-off) .tag[href="#HomeWork"],
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line span.cm-tag-HomeWork {
+	font-weight: 900;
+	font-style: normal;
+	text-decoration: none;
+
+	color: var(--annotation-tag-font-color);
+
+	padding-right: 8px;
+	padding-left: 8px;
+
+	border-radius: var(--roundish);
+}
+
+body:not(.annotation-tags-off) .longform-leaf .tag[href="#HomeWork"],
+body:not(.annotation-tags-off) .longform-leaf .cm-s-obsidian .cm-line span.cm-tag-HomeWork {
+	font-family: var(--longform-font);
+	font-size: var(--longform-font-size);
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-begin.cm-tag-HomeWork {
+	white-space: nowrap;
+	padding-right: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-end.cm-tag-HomeWork {
+	font-family: var(--default-font);
+	padding-left: 0;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
+
+
+/* InProgress*/
+
+
+
+body:not(.annotation-tags-off) .cm-tag-InProgress,
+body:not(.annotation-tags-off) .tag[href="#InProgress"] {
+	/* replace this color */
+	background-color: rgb(0 102 102 / 50%);
+}
+
+body:not(.annotation-tags-off) .cm-hashtag-begin.cm-tag-InProgress::BEFORE,
+body:not(.annotation-tags-off) .tag[href="#InProgress"]::BEFORE {
+	/* replace this icon */
+	content: "🚧 ";
+}
+
+body:not(.annotation-tags-off) .tag[href="#InProgress"],
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line span.cm-tag-InProgress {
+	font-weight: 900;
+	font-style: normal;
+	text-decoration: none;
+
+	color: var(--annotation-tag-font-color);
+
+	padding-right: 8px;
+	padding-left: 8px;
+
+	border-radius: var(--roundish);
+}
+
+body:not(.annotation-tags-off) .longform-leaf .tag[href="#InProgress"],
+body:not(.annotation-tags-off) .longform-leaf .cm-s-obsidian .cm-line span.cm-tag-InProgress {
+	font-family: var(--longform-font);
+	font-size: var(--longform-font-size);
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-begin.cm-tag-InProgress {
+	white-space: nowrap;
+	padding-right: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-end.cm-tag-InProgress {
+	font-family: var(--default-font);
+	padding-left: 0;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
+
+
+/* Article*/
+
+
+
+body:not(.annotation-tags-off) .cm-tag-Article,
+body:not(.annotation-tags-off) .tag[href="#Article"] {
+	/* replace this color */
+	background-color: rgb(0 102 102 / 50%);
+}
+
+body:not(.annotation-tags-off) .cm-hashtag-begin.cm-tag-Article::BEFORE,
+body:not(.annotation-tags-off) .tag[href="#Article"]::BEFORE {
+	/* replace this icon */
+	content: "🗒️ ";
+}
+
+body:not(.annotation-tags-off) .tag[href="#Article"],
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line span.cm-tag-Article {
+	font-weight: 900;
+	font-style: normal;
+	text-decoration: none;
+
+	color: var(--annotation-tag-font-color);
+
+	padding-right: 8px;
+	padding-left: 8px;
+
+	border-radius: var(--roundish);
+}
+
+body:not(.annotation-tags-off) .longform-leaf .tag[href="#Article"],
+body:not(.annotation-tags-off) .longform-leaf .cm-s-obsidian .cm-line span.cm-tag-Article {
+	font-family: var(--longform-font);
+	font-size: var(--longform-font-size);
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-begin.cm-tag-Article {
+	white-space: nowrap;
+	padding-right: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-end.cm-tag-Article {
+	font-family: var(--default-font);
+	padding-left: 0;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
+
+
+/* Someday*/
+
+
+
+body:not(.annotation-tags-off) .cm-tag-Someday,
+body:not(.annotation-tags-off) .tag[href="#Someday"] {
+	/* replace this color */
+	background-color: rgb(0 102 102 / 50%);
+}
+
+body:not(.annotation-tags-off) .cm-hashtag-begin.cm-tag-Someday::BEFORE,
+body:not(.annotation-tags-off) .tag[href="#Someday"]::BEFORE {
+	/* replace this icon */
+	content: "🕰 ";
+}
+
+body:not(.annotation-tags-off) .tag[href="#Someday"],
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line span.cm-tag-Someday {
+	font-weight: 900;
+	font-style: normal;
+	text-decoration: none;
+
+	color: var(--annotation-tag-font-color);
+
+	padding-right: 8px;
+	padding-left: 8px;
+
+	border-radius: var(--roundish);
+}
+
+body:not(.annotation-tags-off) .longform-leaf .tag[href="#Someday"],
+body:not(.annotation-tags-off) .longform-leaf .cm-s-obsidian .cm-line span.cm-tag-Someday {
+	font-family: var(--longform-font);
+	font-size: var(--longform-font-size);
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-begin.cm-tag-Someday {
+	white-space: nowrap;
+	padding-right: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+body:not(.annotation-tags-off) .cm-s-obsidian .cm-line .cm-hashtag-end.cm-tag-Someday {
+	font-family: var(--default-font);
+	padding-left: 0;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}

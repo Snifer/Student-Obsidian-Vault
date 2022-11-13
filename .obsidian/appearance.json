@@ -1,0 +1,12 @@
+{
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "cards",
+    "clean-embeds",
+    "student"
+  ],
+  "theme": "moonstone",
+  "cssTheme": "Blue Topaz",
+  "nativeMenus": false,
+  "baseFontSize": 25
+}

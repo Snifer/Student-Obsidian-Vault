@@ -1,0 +1,34 @@
+{
+  "choices": [
+    {
+      "id": "9127cac4-7345-4132-a053-460b77a03fc5",
+      "name": "Class",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Resources/Templates/tpl.class",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Areas/Class"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "source"
+    }
+  ],
+  "macros": [],
+  "inputPrompt": "single-line"
+}

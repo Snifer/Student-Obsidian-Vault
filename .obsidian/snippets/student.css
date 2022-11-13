@@ -1,0 +1,13 @@
+.student-title .markdown-embed-title
+{
+	display: none;
+}
+
+
+.student-dashboard 
+{
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background: linear-gradient(209deg, #A463BF, #647eff, #b4100c)
+
+}

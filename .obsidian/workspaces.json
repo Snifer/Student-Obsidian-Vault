@@ -1,0 +1,155 @@
+{
+  "workspaces": {
+    "Dashboard": {
+      "main": {
+        "id": "662c4dd8fe8fe32a",
+        "type": "split",
+        "children": [
+          {
+            "id": "5e4e90977a96a044",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0ddb334c607edb2f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Dashboard.md",
+                    "mode": "preview",
+                    "source": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "04fa2d9fbd63d03b",
+        "type": "split",
+        "children": [
+          {
+            "id": "ccd8d0b785017e08",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1aed5ab7bf809645",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "404a70a2f19bd42b",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#memo",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "7eb21ba47ed00bdb",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 389.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "37354e55541d44db",
+        "type": "split",
+        "children": [
+          {
+            "id": "8fd17ac7eedd8421",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "37a818a3c18eafc6",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Dashboard.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "6bc6d96a98e37897",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Dashboard.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "aa5df0c9818c23cf",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "5cdf8515448a655e",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Dashboard.md"
+                  }
+                }
+              },
+              {
+                "id": "848b54cea8425a82",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "active": "0ddb334c607edb2f"
+    }
+  },
+  "active": "Dashboard"
+}

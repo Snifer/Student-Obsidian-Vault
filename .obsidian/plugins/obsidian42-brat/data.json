@@ -1,0 +1,17 @@
+{
+  "pluginList": [
+    "tomaszkiewicz/obsidian-database-plugin",
+    "rien7/obsidian-colorful-tag",
+    "cumany/obsidian-editing-toolbar"
+  ],
+  "pluginSubListFrozenVersion": [],
+  "themesList": [],
+  "updateAtStartup": false,
+  "updateThemesAtStartup": false,
+  "ribbonIconEnabled": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": true,
+  "notificationsEnabled": true
+}
