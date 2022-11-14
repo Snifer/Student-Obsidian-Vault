@@ -1,6 +1,6 @@
 
 
-Hello, 
+Hi, 
 
 I will participate with a demo vault for students either school or university I think it could be used in both cases in [Obsidian October](https://publish.obsidian.md/hub/Obsidian+October+2022)
 
